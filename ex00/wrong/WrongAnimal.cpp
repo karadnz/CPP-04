@@ -6,7 +6,7 @@
 /*   By: mkaraden <mkaraden@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/06 22:49:16 by mkaraden          #+#    #+#             */
-/*   Updated: 2024/02/06 22:54:59 by mkaraden         ###   ########.fr       */
+/*   Updated: 2024/02/07 00:19:22 by mkaraden         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,5 +45,6 @@ void	WrongAnimal::makeSound() const
 
 string	WrongAnimal::getType() const
 {
+	cout << "WrongAnimal getType() called" << endl;
 	return (this->_type);
 }

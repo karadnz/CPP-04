@@ -6,7 +6,7 @@
 /*   By: mkaraden <mkaraden@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/06 22:55:36 by mkaraden          #+#    #+#             */
-/*   Updated: 2024/02/06 23:39:26 by mkaraden         ###   ########.fr       */
+/*   Updated: 2024/02/07 00:18:27 by mkaraden         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,10 +41,11 @@ WrongCat	&WrongCat::operator=(const WrongCat &rhs)
 
 void	WrongCat::makeSound() const
 {
-	cout << "WrongCat sound" << endl;
+	cout << this->_type << " makes WrongCat sound" << endl;
 }
 
 string	WrongCat::getType() const
 {
+	cout << "WrongCat getType() called" << endl;
 	return (this->_type);
 }
