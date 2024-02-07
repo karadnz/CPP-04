@@ -6,7 +6,7 @@
 /*   By: mkaraden <mkaraden@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/06 21:22:54 by mkaraden          #+#    #+#             */
-/*   Updated: 2024/02/07 03:02:49 by mkaraden         ###   ########.fr       */
+/*   Updated: 2024/02/07 03:36:00 by mkaraden         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,4 +46,9 @@ void	Animal::makeSound() const
 std::string	Animal::getType() const
 {
 	return (this->_type);
+}
+
+void	Animal::printIdeas() const
+{
+	
 }
