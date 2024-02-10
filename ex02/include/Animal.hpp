@@ -6,7 +6,7 @@
 /*   By: mkaraden <mkaraden@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/06 19:12:04 by mkaraden          #+#    #+#             */
-/*   Updated: 2024/02/07 01:19:30 by mkaraden         ###   ########.fr       */
+/*   Updated: 2024/02/10 23:13:49 by mkaraden         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,10 +30,10 @@ class Animal
 
 		Animal &operator=(const Animal &src);
 
-		virtual	void	makeSound() const;
+		virtual	void	makeSound() const = 0;
 		virtual string	getType() const;
 
-		virtual void	printIdeas() const = 0;
+		virtual void	printIdeas() const;
 
 	protected:
 		string _type;
