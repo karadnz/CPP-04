@@ -6,7 +6,7 @@
 /*   By: mkaraden <mkaraden@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/06 19:10:46 by mkaraden          #+#    #+#             */
-/*   Updated: 2024/02/07 03:29:59 by mkaraden         ###   ########.fr       */
+/*   Updated: 2024/04/27 19:00:02 by mkaraden         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ void evo()
 
 int animal()
 {
-	evo();
+	//evo();
 	
 
 	Animal *animals[4];
@@ -75,6 +75,7 @@ int animal()
 
 int main()
 {
-	animal();
+	evo();
+	//animal();
 	//system("leaks animal");
 }
